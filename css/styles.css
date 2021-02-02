@@ -67,6 +67,24 @@ header {
       width: 18px;
   }
   
+  .information-banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1548F7;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+  .information-banner p {
+    font-weight: 500;
+    font-size: 0.7rem;
+    color: white;
+    display: block;
+  }
+
+
   @media(min-width: 600px){
     .hamburger-icon {
       display: none;
@@ -83,20 +101,3 @@ header {
     } 
   }
 
-
-  .information-banner {
-    display: flex;
-    justify-content: space-between;
-    background-color: #1548F7;
-    height: auto;
-    width: auto;
-    text-align: center;
-    padding-left: 30%;
-    padding-right: 30%;
-}
-.information-banner p {
-    font-weight: 500;
-    font-size: 0.7rem;
-    color: white;
-    display: inline-block;
-}
