@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Rainydays</title>
+    <meta name="description" content="Rainydays started with a group of friends wanting to create durable outwear for a good price.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+    <body>
+        <header>
+
+            <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="hamburger-menu">
+
+            <ul class="nav-icon-menu">
+                <li class="nav-icon"><a class="icon-item" href="myaccount.html"><img class="profile-icon" src="images/profile-icon.svg" alt="profile-icon"></a></li>
+                <li class="nav-icon"><a class="icon-item" href="wishlist.html"><img class="heart-icon" src="images/heart-icon.svg" alt="heart-icon"></a></li>
+                <li class="nav-icon"><a class="icon-item" href="cart.html"><img class="cart-icon" src="images/cart-icon.svg" alt="cart-icon"></a></li>
+            </ul>
+
+            <div id="hamburger-nav">
+                <ul> 
+                    <li ><a class="nav-item" href="">Men</a></li>
+                    <li ><a class="nav-item" href="">Women</a></li>
+                    <li ><a class="nav-item" href="about.html">About</a></li>
+                    <li ><a class="nav-item" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="searchbar">
+                    <button><img class="search-icon" src="images/search-icon.svg" alt="search-icon"></button> 
+                    <input 
+                    type="search" 
+                    class="site-search" 
+                    name="q" 
+                    aria-label="Search through site content"
+                    value="Search">
+                </div>
+            </div>
+
+
+            <nav id="navbar" aria-label="main-nav"> 
+                <a class="nav-logo" href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+                <ul class="main-nav"> 
+                    <li class="navbar"><a class="nav-item" href="">Men</a></li>
+                    <li class="navbar"><a class="nav-item" href="">Women</a></li>
+                    <li class="navbar"><a class="nav-item" href="about.html">About</a></li>
+                    <li class="navbar"><a class="nav-item" href="contact.html">Contact</a></li>
+            
+                    <li class="nav-icon-menu">
+                        <div class="nav-icon"><a class="icon-item" href=""><img class="profile-icon" src="images/profile-icon.svg" alt="profile-icon"></a></div>
+                        <div class="nav-icon"><a class="icon-item" href=""><img class="heart-icon" src="images/heart-icon.svg" alt="heart-icon"></a></div>
+                        <div class="nav-icon"><a class="icon-item" href=""><img class="cart-icon" src="images/cart-icon.svg" alt="cart-icon"></a></div>
+                    </li>
+                    <li class="header-search">
+                        <button><img class="search-icon" src="images/search-icon.svg" alt="search-icon"></button> 
+                        <input 
+                        type="search" 
+                        class="site-search" 
+                        name="q" 
+                        aria-label="Search through site content"
+                        value="Search">
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="information-banner">
+                <ul> 
+                    <li>Free shipping above 1000 NOK</li>
+                    <li>Free returns in Norway</li>
+                    <li>5 years warranty</li>
+                </ul>
+            </div>
+        </header>
+
+        <main> 
+
+            <section class="about-us">
+                <div class="container">
+                    <h1>About Us</h1>
+                    <p>«At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti 
+                        atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
+                        similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                    </p>
+                    <p> Et harum quidem rerum facilis est et expedita distinctio. 
+                        Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, 
+                        omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
+                        Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.»</p>
+                    </div>
+                </div>
+                
+                
+            </section>
+
+            <section class="stories container">
+                <h3>Latest Stories</h3>
+                <div class="stories-wrapper">
+                    <div id="stitem-1" class="stories-item">
+                   <img class="stories-img" alt="Camping in Jotunheimen" src="images/jotunheimen.jpg">
+                    <h6>Camping in Jotunheimen</h6>
+                    </div>
+                    <div id="stitem-2" class="stories-item">
+                    <img class="stories-img" alt="Iceland" src="images/reykjavik.jpg">
+                    <h6>Rainydays in Iceland</h6>
+                    </div>
+                    <div id="stitem-3" class="stories-item">
+                    <img class="stories-img" alt="Lofoten Mountains" src="images/lofoten.jpg">
+                    <h6>Downhill in Lofoten</h6>
+                </div>
+            </div>
+            </section>
+
+        </main>
+
+
+
+
+        <footer>
+
+            <div class="footer container">
+                <div class="card">
+                    <img id="logo2" src="images/logo_white.png" alt="logo">
+                    <div id="newsletter">
+                    <label>Subscribe to our Newsletter</label>
+                    <input  type="email" 
+                            id="subscribe-to" 
+                            name="q" 
+                            aria-label="subscribe to newletter"
+                            value="email@example.no"> 
+                    <button>Submit</button> </div>
+                </div>
+                <div id="men" class="card">
+                    <h5>Men</h5>
+                    <ul>
+                        <li><a href="">Outdoor Activities</a></li>
+                        <li><a href="">Skiing</a></li>
+                        <li><a href="">Trekking</a></li>
+                    </ul>
+                </div>
+                <div id="women" class="card">
+                    <h5>Women</h5>
+                    <ul>
+                        <li><a href="">Outdoor Activities</a></li>
+                        <li><a href="">Skiing</a></li>
+                        <li><a href="">Trekking</a></li>
+                    </ul>
+                </div>
+                <div id="about2" class="card">
+                    <h5>About</h5>
+                    <ul>
+                        <li><a href="">About Rainydays</a></li>
+                        <li><a href="">Latest Stories</a></li>
+                    </ul>
+                </div>
+                <div id="contact2" class="card">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><a href="">Customer Service</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Contact form</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer container">
+                <div id="some" class="card"> <a class="bottomtext" href="">Instagram</a> <a class="bottomtext" href="">Facebook</a></div>
+                 <div class="card"><a class="bottomtext" href="">Terms and Conditions</a></div>
+                <div class="card"><a class="bottomtext" href="">Cookies and Privacy</a></div>
+                <div class="card"></div>
+                <div class="card"><p id="copyright" class="bottomtext">©2020 Rainydays, NO 000 000</p></div>
+                
+            </div>
+
+        </footer>
+
+
+    </body>
+
+
+</html>

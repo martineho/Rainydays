@@ -68,8 +68,33 @@ header {
   .profile-icon, .cart-icon {
       width: 18px;
   }
+  .searchbar{
+    padding: 15px;
+  }
+  .search-icon {
+    width: 18px;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    outline: inherit;
+}
+  input {
+    background-color: transparent;
+    border-bottom: solid black 2px;  
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 3px 12px;
+    outline: inherit;
+    font-weight: 300;
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
+    color: rgb(131, 131, 131);
+} 
   
-  .information-banner {
+.information-banner {
     display: flex;
     justify-content: space-between;
     background-color: #1548F7;
@@ -78,8 +103,8 @@ header {
     text-align: center;
     padding-left: 30%;
     padding-right: 30%;
-}
-  .information-banner p {
+  }
+.information-banner p {
     font-weight: 500;
     font-size: 0.7rem;
     color: white;
@@ -87,7 +112,7 @@ header {
   }
 
 
-  @media(min-width: 750px){
+@media(min-width: 750px){
     .hamburger-icon {
       display: none;
     }
@@ -103,7 +128,7 @@ header {
       display: inline;
     } 
   }
-  @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     .information-banner {
       display: block;
       padding: 2px;
@@ -114,4 +139,327 @@ header {
       left: 5%;
     }
 }
+    .herotop {
+      height: 80vh;
+      width: 100vw;
+      background-image: url("../images/herotop.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      text-align: center;
+      padding-top: 8%;
+} 
 
+    .herotop h1 {
+      font-size: 4.2rem;
+      color: white;
+      height: 30px;
+    }
+
+    .herotop p {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 500;
+      font-size: 1.3rem;
+      color: white;
+      padding: 20px;
+    }
+
+    .container {
+      padding: 3% 5%;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 2.2rem;
+    }
+
+    .new-items h3 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 500;
+      font-size: 1.5rem;
+      color: rgb(36, 36, 36);
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 1.7rem;
+    }
+
+    h4 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 500;
+      font-size: 1.2rem;
+    }
+    h5 {
+      font-weight: 500;
+      font-size: 1rem;
+      text-decoration: underline;
+      color: white;
+      margin: 0;
+    }
+    h6 {
+      font-weight: 600;
+      font-size: 1.1rem;
+      text-align: left;
+      margin: 10px 5px;
+    }
+    p {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 0.7rem;
+    }
+    .price {
+      float: right;
+      text-align: right;
+      font-weight: 500;
+      font-size: 0.9rem;
+      color: #727272;
+    }
+
+    .new-items {
+      padding: 4% 5%;
+    } 
+    #newitem-1, #newitem-2, #newitem-3, #newitem-4 {
+      width: 300px;
+    }
+    .products{
+      display: grid;
+      grid-gap: 2rem;
+      min-height: 400px;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 4fr));
+      grid-template-rows: auto;
+    }
+    .products > div {
+      background-color: white;
+    }
+
+    .parrallax {
+      height: 50vh;
+      background-image: url(../images/reykjavik_parrallax.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .stories-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 4fr));
+      grid-template-rows: auto;
+      grid-gap: 1rem;
+      min-height: 250px;
+      padding-top: 10px;
+    }
+    .stories-item > h6 {
+      text-align: left;
+    }
+    .stories-img {
+      height: 200px;
+      border-radius: 15px;
+      box-shadow: 1px 2px 12px #c9c9c9;
+    }
+
+    footer {
+      background-color: #3F3F3F;
+      padding-top: 0%;
+      
+    }
+    .footer {
+      display: grid;
+      grid-template-columns: 40% 15% 15% 15% 15%;
+      background-color: #3F3F3F;
+    }
+    footer .card ul, li, a {
+      list-style: none;
+      text-decoration: none;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 0.8rem;
+      color: white;
+      padding: 2px 0px;
+    }
+    footer .card ul, li, a:hover {
+      color: rgba(255, 255, 255, 0.664); 
+    }
+    footer #logo2{
+      width: 120px;
+      margin-bottom: 30px;
+    } 
+    footer .bottomtext {
+      text-decoration: none;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 0.7rem;
+      color: white;
+      padding: 0px 0px;
+    }
+    footer .card label {
+      font-weight: 600;
+      font-size: 0.8rem;
+      color: white;
+      display: block;
+      padding-bottom: 10px;
+    }
+    footer .card input {
+      background-color: transparent;
+      padding: 8px 12px;
+      border: solid rgba(255, 255, 255, 0.836) 1px; 
+      border-radius: 8px;
+      outline: inherit;
+      margin-right: 3px;
+      font-weight: 500;
+      font-size: 0.6rem;
+      letter-spacing: 0.3px;
+      color: rgba(255, 255, 255, 0.836);
+
+    }
+    footer #newsletter button{
+      background-color: transparent;
+      font-weight: 600;
+      font-size: 0.6rem;
+      color: white;
+      padding: 7px 14px;
+      border: solid white 2px; 
+      border-radius: 8px;
+      outline: inherit;
+      margin: 2px;
+    }
+    #copyright {
+      margin-top: 0; 
+      margin-bottom: 0;
+      color: rgb(202, 202, 202);
+    }
+    .cta-button-white {
+      display: inline-block;
+      background-color: white;
+      width: 200px;
+      padding: 10px 0px;
+      border-radius: 7px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: black;
+      margin: 2px;
+      -webkit-box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
+      -moz-box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
+      box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
+      border: solid 2px white;
+    }
+    .cta-button-white:hover {
+      color: white;
+      background-color: transparent;
+      border: solid 2px white;
+    }
+    .cta-button-black-outline {
+      display: inline-block;
+      width: 200px;
+      padding: 10px 0px;
+      border-radius: 7px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: white;
+      background-color: black;
+      margin: 2px;
+      border: solid 2px black;
+    }
+    .cta-button-black-outline:hover {
+      color: black;
+      background-color: transparent;
+    }
+    .hyperlink {
+      color: black;
+      font-weight: 600;
+      margin-right: 25px;
+      padding-bottom: 2px;
+      border-bottom: solid 1.5px black;
+    }
+    .inputfield-headline {
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+@media only screen and (max-width: 980px) {
+
+  .herotop {
+      height: 60vh;
+  } 
+  #stitem-2, #stitem-3 {
+      display: none;
+  }
+  .footer {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  padding-top: 6vh;
+  }
+  #newsletter, #men, #women, #logo2 {
+  display: none;
+  }
+  #copyright {
+  text-align: center;
+  margin-top: 5vh; 
+  margin-bottom: 2vh;
+  }
+  #some {
+  margin-bottom: 5vh;
+}
+@media only screen and (max-width: 450px) {
+  .herotop {
+      height: 80vh;
+      background-position: center;
+      padding-top: 6%;
+  } 
+  .herotop h1 {
+      margin-bottom: 15px;
+      height: auto;
+  }
+  .herotop p {
+      padding: 20px;
+  }
+  .cta-button-white {
+  margin-bottom: 10px;
+  }
+  .products{
+      grid-template-columns: auto;
+      padding: 5% 8% 5% 5%;
+  }
+  #newitem-2, #newitem-3, #newitem-4 {
+      display: none;
+  }  
+
+  .parrallax {
+      height: 80vh;
+      background-position: left;
+  }
+  .parrallax .container {
+     padding-top: 5vh;
+  }
+  .stories-wrapper {
+      grid-template-columns: auto;
+      padding-top: 0px;
+      margin: auto auto;
+  }
+  #stitem-1 > img {
+      scale: 0.92;
+      margin-left: -2%;
+  }
+  h3 {
+      text-align: left;
+  }
+  .stories-item > h6 {
+      text-align: center;
+      font-weight: 500;
+      font-size: 1.1rem;
+      margin: 5px 5px;
+  }
+  #stitem-2, #stitem-3 {
+      display: none;
+  }
+}
+}
