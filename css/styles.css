@@ -438,6 +438,11 @@ header {
       padding-bottom: 2px;
       border-bottom: solid 1.5px black;
     }
+    .hyperlink:hover{
+      color: #1548F7;
+      border-bottom: solid 1.5px #1548F7;
+    }
+    }
     .inputfield-headline {
       font-weight: 700;
       font-size: 1.2rem;
