@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 header {
-    background: wheat;
+    background: white;
     color: rgb(0, 0, 0);
     padding: 10px 50px;
     display: flex;
@@ -28,14 +28,15 @@ header {
     position: absolute;
     top: 40px;
     right: 0px;
-    background: #df7a00;
+    background: white;
+    width: 100vw;
   }
   
   .hamburger-icon {
     position: absolute;
     right: 20px;
-    top: 12px;
-    scale: 1.7;
+    top: 13px;
+    scale: 1.8;
   }
   
   nav a {
@@ -95,6 +96,7 @@ header {
       display: block;
       position: static;
       background: none;
+      width: 100vw;
     }
     
     nav a {
