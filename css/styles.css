@@ -24,7 +24,6 @@ header {
     position: relative;
     height: auto;
   }
-  
   nav {
     position: absolute;
     top: 40px;
@@ -34,7 +33,9 @@ header {
   
   .hamburger-icon {
     position: absolute;
-    right: 10px;
+    right: 20px;
+    top: 12px;
+    scale: 1.7;
   }
   
   nav a {
@@ -85,7 +86,7 @@ header {
   }
 
 
-  @media(min-width: 600px){
+  @media(min-width: 750px){
     .hamburger-icon {
       display: none;
     }
@@ -100,4 +101,15 @@ header {
       display: inline;
     } 
   }
+  @media only screen and (max-width: 900px) {
+    .information-banner {
+      display: block;
+      padding: 2px;
+    
+}
+    .searchbar {
+      display: block;
+      left: 5%;
+    }
+}
 
