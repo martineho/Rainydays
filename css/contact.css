@@ -1,3 +1,8 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
 .contact {
     display: grid;
     grid-template-columns: 4fr 2fr;
@@ -10,53 +15,87 @@
     border-radius: 20px;
     box-shadow: 2px 0px 12px 2px rgba(0,0,0,0.13);
 }
-form {
-    padding: 0px 20px;
-}
-fieldset {
-    padding: 0 0 5% 0px; 
-    border: none;
-}
-.form-input {
-    padding: 7px 10px;
-    border: solid rgba(0, 0, 0, 0.836) 1px; 
-    border-radius: 5px;
-    outline: inherit;
-    width: 93%;
-    display: block;
-}
-select {
-    padding: 7px 5px;
-    border: solid rgba(0, 0, 0, 0.836) 1px; 
-    border-radius: 5px;
-    outline: inherit;
-    width: 100%;
-    display: block;
-    font-weight: 500;
-    font-size: 0.7rem;
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(131, 131, 131);
-}
-.selected-value {
-    font-weight: 500;
-    font-size: 0.7rem;
-    font-family: 'Open Sans', sans-serif;
-}
-label {
-    display: block;
-    padding: 13px 0 8px 0;
-    font-weight: 500;
-    font-size: 0.7rem;
-}
+    form {
+        padding: 0px 20px;
+    }
+    fieldset {
+        padding: 0 0 5% 0px; 
+        border: none;
+    }
+    .form-input {
+        padding: 7px 10px;
+        border: solid rgba(0, 0, 0, 0.836) 1px; 
+        border-radius: 5px;
+        outline: inherit;
+        width: 93%;
+        display: block;
+    }
+    select {
+        padding: 7px 5px;
+        border: solid rgba(0, 0, 0, 0.836) 1px; 
+        border-radius: 5px;
+        outline: inherit;
+        width: 100%;
+        display: block;
+        font-weight: 500;
+        font-size: 0.7rem;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(131, 131, 131);
+    }
+    .selected-value {
+        font-weight: 500;
+        font-size: 0.7rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+    label {
+        display: block;
+        padding: 13px 0 8px 0;
+        font-weight: 500;
+        font-size: 0.7rem;
+    }
+    .submit-button {
+        height: 35px;
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+        font-size: 0.8rem;
+        margin-top: 20px;
+        width: 100%;
+    }
+
 .hyperlink-field {
     padding-top: 3%;
 }
-.submit-button {
-    height: 35px;
-    background-color: black;
-    border-radius: 5px;
-    color: white;
-    font-size: 0.8rem;
-    margin-top: 20px;
+
+.popular-questions label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 12px 12px;
+    border-top: 0.7px black solid;
     width: 100%;
+    text-align: left;
 }
+    #accordion-1,#accordion-2,#accordion-3,#accordion-4 {
+    display: none;
+    }
+
+        #accordion-1:checked ~ .pq-panel-1 {
+        display: block;
+        }
+        #accordion-2:checked ~ .pq-panel-2 {
+            display: block;
+        }
+        #accordion-3:checked ~ .pq-panel-3 {
+            display: block;
+        }
+        #accordion-4:checked ~ .pq-panel-4 {
+                display: block;
+        }
+        .pq-panel-1,.pq-panel-2,.pq-panel-3,.pq-panel-4 {
+            display: none;
+        }
+        .pq-panel-1,.pq-panel-2,.pq-panel-3,.pq-panel-4 p {
+            padding: 0px 0px 5px 20px;
+        }
