@@ -6,7 +6,7 @@ body {
 header {
     background: white;
     color: rgb(0, 0, 0);
-    padding: 10px 50px;
+    padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -26,7 +26,7 @@ header {
   }
   nav {
     position: absolute;
-    top: 40px;
+    top: 55px;
     right: 0px;
     background: white;
     width: 100vw;
@@ -34,8 +34,8 @@ header {
   
   .hamburger-icon {
     position: absolute;
-    right: 20px;
-    top: 13px;
+    right: 30px;
+    top: 30px;
     scale: 1.8;
   }
   
@@ -59,9 +59,9 @@ header {
   
   .nav-icons {
     display: inline-flex;
-    width: 100px;
+    width: 130px;
     justify-content: space-between;
-    margin-right: 12px;
+    margin-right: 20px;
     margin-top: 10px;
   }
 
@@ -86,7 +86,7 @@ header {
 }
   input {
     background-color: transparent;
-    border-bottom: solid black 2px;  
+    border-bottom: solid black 1.5px;  
     border-top: none;
     border-left: none;
     border-right: none;
@@ -97,7 +97,21 @@ header {
     letter-spacing: 0.3px;
     color: rgb(131, 131, 131);
 } 
-  
+
+.help-sidetag {
+  position: fixed;
+  right: 0;
+  top: 40%;
+  background-color: black;
+  font-size: 0.8rem;
+  color: white;
+  padding: 15px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed; 
+  border-radius: 7px 0px 0px 7px;
+}
+
+
 .information-banner {
     display: flex;
     justify-content: space-between;

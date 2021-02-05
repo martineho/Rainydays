@@ -1,0 +1,81 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.herotop-men {
+    background-image: url("../images/herotop.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.information-banner {
+    background-color: #3F3F3F;
+}
+
+.all-products {
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-template-rows: auto;
+}
+.products {
+   
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 25px;
+}
+.view-more {
+    text-align: center;
+}
+.filter {
+    margin-left: 15%;
+    width: 260px;
+    color: #3F3F3F;
+}
+.heading {
+    display: inline;
+}
+.filter img {
+    width: 22px;
+    margin-right: 20px;
+}
+.filter article {
+    border-bottom: solid 0.5px #3F3F3F;
+    margin: 20px 40px;
+    padding: 10px 0px;
+}
+.filter h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #3F3F3F;
+}
+.filter h5 {
+    font-weight: 600;
+    text-decoration: none;
+    color: #3F3F3F;
+}
+.filter form {
+    padding: 25px 0;
+}
+.filter input {
+    float: right;
+}
+.filter .checkmark {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 7px 0;
+    color: #3F3F3F;
+}
+.item {
+    max-width: 300px;
+}
+
+@media only screen and (max-width: 780px) {
+    .all-products {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    } 
+}
