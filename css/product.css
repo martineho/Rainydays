@@ -13,6 +13,35 @@ body {
     grid-template-rows: auto;
 }
 
+.product-image {
+    text-align: center;
+}
+
+.info-right h1 {
+    margin: 0;
+}
+    .product-price {
+        margin: 10px 0px;
+    }
+    .info-right label {
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+    .info-right span {
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+
+.product-colours label {
+    padding: 7px;
+}
+    .product-colours label:checked {
+        border: solid black 1px;
+    }
+    .product-colours label:hover {
+        border: solid black 1px;
+    }
+
 
 .product-sizes {
     margin: 20px 0;
@@ -23,7 +52,7 @@ body {
     position: fixed;
     width: 0;
   } 
-  .product-sizes #s,#m,#l,#xl {
+  .product-sizes label {
       color: black;
       padding: 8px;
       border: solid 1.5px black;
@@ -31,6 +60,11 @@ body {
       margin-right: 10px;
       font-weight: 500;
   }
+  .product-sizes label:hover {
+    color: white;
+    background-color: black;
+    padding: 8px;
+}
 
   .shipping-info {
       margin: 30px 0px;
@@ -40,3 +74,23 @@ body {
         font-size: 0.7rem;
         font-weight: 600;
     }
+
+.show-more {
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.show-more:hover {
+    color: rgba(0, 0, 0, 0.877);
+    font-weight: 600;
+}
+
+.product-images {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: auto;
+    height: 80vh;
+}
+.img-1 {
+    background-image: url(../images/reykjavik_parrallax.jpg);
+}
