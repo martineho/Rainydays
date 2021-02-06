@@ -1,0 +1,178 @@
+main {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: auto;
+}
+h3 {
+    font-size: 1.3rem;
+}
+.order-summary {
+    padding: 5%
+}
+.summary {
+    margin: 5%;
+    padding: 5% 10%;
+    box-shadow: 3px 3px 15px rgb(211, 211, 211);
+    background-color: white;
+    border-radius: 10px;
+}
+    .product-summary {
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+        column-gap: 20px;
+    }
+    .summary article {
+        padding: 5% 0%;
+        border-bottom: solid 0.5px #3F3F3F;
+    }
+    .product-summary h4 {
+        font-weight: 600;
+        font-size: 1rem;
+        margin: 0;
+    }
+    .product-summary p {
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+    .product-summary span {
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+    .dropdown {
+        padding-top: 20px;
+    }
+    .dropdown-control {
+        border: solid black 1px;
+        padding: 5px 7px;
+        border-radius: 5px;
+    }
+    .price {
+        margin-top: -20px;
+    }
+
+    .price-description p,span{
+        font-size: 0.8rem;
+    }
+
+    .price-description span{
+        float: right;
+    }
+    .total {
+        font-weight: 600;
+    }
+    .voucher {
+        padding: 5% 0%;
+    }
+    .voucher label {
+        font-size: 0.7rem;
+        font-weight: 600;
+        display: block;
+        padding-bottom: 20px;
+    }
+    .voucher input {
+        background-color: transparent;
+        padding: 8px 12px;
+        border: solid black 1px; 
+        border-radius: 8px;
+        outline: inherit;
+        margin-right: 3px;
+        font-weight: 500;
+        font-size: 0.6rem;
+        letter-spacing: 0.3px;
+        color: black;
+  
+      }
+      .voucher button{
+        background-color: #3F3F3F;
+        font-weight: 600;
+        font-size: 0.6rem;
+        color: white;
+        padding: 7px 30px;
+        border: solid #3F3F3F 2px; 
+        border-radius: 8px;
+        outline: inherit;
+        margin: 2px;
+      }
+
+.checkout-process {
+    padding: 5% 5% 5% 0;
+    }
+.checkout-options {
+    margin: 2%;
+    padding: 3% 10%;
+    background-color: white;
+    }
+    .checkout-options label {
+    display: block;
+    padding: 10px 0px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    }
+    .checkout-options span {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0px 10px;
+    }
+    .checkout-options label p {
+    padding-left: 6%;
+    }
+
+    .checkout-options input {
+        border: black solid 1px;
+        border-radius: 5px;
+        padding: 8px;
+    }
+    .address-input {
+        width: 300px;
+    }
+    .street-address {
+        width: 350px;
+    }
+    .postal-code {
+        width: 100px;
+    }
+    .checkout-options select {
+        padding: 8px;
+    }
+    .underline {
+        border-bottom: solid 0.5px #3F3F3F;
+        padding-bottom: 20px;
+        height: 1px;
+    }
+.checkout-total {
+        padding-bottom: 5%;
+}
+    .shipping-cost {
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+    .shipping-cost span {
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+    .checkout-total p{
+        font-size: 1rem;
+    }
+    .checkout-total span {
+        float: right;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+@media only screen and (max-width: 900px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .summary {
+        margin: 0% 5%;
+    }
+    .checkout-process {
+        padding: 2% 5% 2% 5%;
+        }
+    .checkout-options {
+        margin: 2%;
+        box-shadow: none;
+    }     
+} 

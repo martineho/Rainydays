@@ -11,35 +11,42 @@
 
     <body>
         <header>
-            <a href="index.html"><img id="logo" src="/images/logo.png" alt="logo"></a>
 
-            <nav class="navbar" aria-label="main-nav"> 
-                <ul> 
-                    <li><a href="men-home.html">Men</a></li>
-                    <li><a href="men-home.html">Women</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+            <label class="hamburger-icon" for="hamburger">☰</label>
+            <input type="checkbox" id="hamburger">
+           
+            <nav>
+                <a class="nav-logo" href="index.html"><img width="90px" src="images/logo.png" alt="logo"></a>
+              <a href="index.html">Home</a>
+              <a href="men-home.html">Products</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact</a>
+              <div class="searchbar">
+                <input 
+                type="search" 
+                class="site-search" 
+                name="q" 
+                aria-label="Search through site content"
+                value="Search">
+                <button><img class="search-icon" src="images/search-icon.svg" alt="search-icon"></button> 
+            </div>
             </nav>
+           
+            <section class="nav-icons">
+                <a class="profile-icon" href="myaccount.html"><img src="images/profile-icon.svg" alt="cart-icon"></a>
+                <a class="heart-icon" href="wishlist.html"><img src="images/heart-icon.svg" alt="cart-icon"></a>
+                <a class="cart-icon" href="../Rainydays/checkout.html"><img src="images/cart-icon.svg" alt="cart-icon"></a>
+            </section>
 
-            <div class="header-search">
-                <button>Search</button> 
-                <input type="search" id="site-search" name="q" aria-label="Search through site content">
-            </div>
-
-            <div class="nav-icon-menu">
-                <ul class="nav-icon">
-                    <li class="icon-item"><a href="myaccount.html">profile</a></li>
-                    <li class="icon-item"><a href="wishlist.html">love</a></li>
-                    <li class="icon-item"><a href="cart.html">cart</a></li>
-                </ul>
-            </div>
-
-            <div class="checkout-success banner">
-                <p>Your payment was successful!</p>
         </header>
 
+        <div class="information-banner">
+         
+            <p></p>
+            <p>You are now at checkout</p>
+            <p></p>
 
+        </div>
 
         <main> 
 
@@ -89,21 +96,42 @@
 
         <footer>
 
-            <div class="container">
+            <div class="footer container">
                 <div class="card">
-                    <img src="" alt="logo">
-                    <label>Subscribe to our newletter</label>
-                    <input type="email" id="subscribe-to" name="q" aria-label="subscribe to newletter"> 
-                    <button>Submit</button> 
+                    <img id="logo2" src="images/logo_white.png" alt="logo">
+                    <div id="newsletter">
+                    <label>Subscribe to our Newsletter</label>
+                    <input  type="email" 
+                            id="subscribe-to" 
+                            name="q" 
+                            aria-label="subscribe to newletter"
+                            value="email@example.no"> 
+                    <button>Submit</button> </div>
                 </div>
-                <div class="card">
+                <div id="men" class="card">
+                    <h5>Men</h5>
+                    <ul>
+                        <li><a href="">Outdoor Activities</a></li>
+                        <li><a href="">Skiing</a></li>
+                        <li><a href="">Trekking</a></li>
+                    </ul>
+                </div>
+                <div id="women" class="card">
+                    <h5>Women</h5>
+                    <ul>
+                        <li><a href="">Outdoor Activities</a></li>
+                        <li><a href="">Skiing</a></li>
+                        <li><a href="">Trekking</a></li>
+                    </ul>
+                </div>
+                <div id="about2" class="card">
                     <h5>About</h5>
                     <ul>
                         <li><a href="">About Rainydays</a></li>
                         <li><a href="">Latest Stories</a></li>
                     </ul>
                 </div>
-                <div class="card">
+                <div id="contact2" class="card">
                     <h5>Contact</h5>
                     <ul>
                         <li><a href="">Customer Service</a></li>
@@ -113,10 +141,13 @@
                 </div>
             </div>
 
-            <div class="container">
-                <div class="card"><p>©2020 Rainydays, NO 000 000 000 MVA</p></div>
-                 <div class="card"><a href="">Terms and Conditions</a> <a href="">Cookies and Privacy</a></div>
-                <div class="card"> <a href="">ig</a> <a href="">f</a></div>
+            <div class="footer container">
+                <div id="some" class="card"> <a class="bottomtext" href="">Instagram</a> <a class="bottomtext" href="">Facebook</a></div>
+                 <div class="card"><a class="bottomtext" href="">Terms and Conditions</a></div>
+                <div class="card"><a class="bottomtext" href="">Cookies and Privacy</a></div>
+                <div class="card"></div>
+                <div class="card"><p id="copyright" class="bottomtext">©2020 Rainydays, NO 000 000</p></div>
+                
             </div>
 
         </footer>
