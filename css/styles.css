@@ -110,6 +110,13 @@ header {
   text-orientation: mixed; 
   border-radius: 7px 0px 0px 7px;
 }
+.help-sidetag:hover {
+  background-color: black;
+  font-size: 0.8rem;
+  color: white;
+  padding: 15px 20px 15px 15px;
+ 
+}
 
 
 .information-banner {
