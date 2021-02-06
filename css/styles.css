@@ -291,16 +291,16 @@ header {
         margin-right: 7px;
     }
 
-    #colour-yellow {
+    .colour-yellow {
       background-color: #FED800;
     }
-    #colour-khaki {
+    .colour-khaki {
       background-color: #5E5900;
     }
-    #colour-red {
+    .colour-red {
       background-color: #D62F15;
     }
-    #colour-purple {
+    .colour-purple {
       background-color: #95A0F8;
     }
     
