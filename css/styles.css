@@ -39,6 +39,9 @@ header {
     top: 30px;
     scale: 1.8;
   }
+  .nav-logo img {
+    width: 100px;
+  }
   
   nav a {
     font-weight: 600;
