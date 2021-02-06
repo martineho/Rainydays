@@ -36,6 +36,12 @@ body {
         font-size: 0.7rem;
         font-weight: 400;
     }
+    .add-to-wishlist img {
+        width: 25px;
+        position: absolute;
+        float: right;
+        right: 5%;
+    }
 
 .product-colours label {
     padding: 7px;
@@ -167,10 +173,10 @@ body {
         border-radius: 20px;
     }
     .seven {
-        width: 70%;
+        width: 180px;
     }
     .five {
-        width: 50%;
+        width: 120px;
     }
 
 
@@ -273,9 +279,70 @@ body {
         width: 70px;
     }
     .table-cell p{
-        width: 50%;
+        width: 200px;
     }
     .helpful-link {
         float: right;
         margin-top: -30px;
+    }
+    .breadcrumb-menu {
+        position: absolute;
+    }
+
+    @media only screen and (max-width: 900px) {
+        .product-image img{
+            margin-left: -3%;
+            width: 200px;
+            margin-top: 5%;
+        }
+        .product-information {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+        } 
+        .info-right {
+            padding: 5% 10%;
+        }
+        .product-details {
+            background-color: #dfdfdf;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            padding: 5%;
+        }
+        .product-performance {
+            padding: 5%;
+        }
+        .reviews-headline {
+            display: grid;
+        }
+        .reviews-headline h3 {
+            display: block
+        }
+        .reviews-headline div {
+            display: none;
+        }
+        .reviews-table {
+            margin: 0px 5%;
+        }
+        .table-cell {
+            padding: 10% 0%;
+            border-bottom: solid 0.5px #3F3F3F;
+        }
+        .helpful-link {
+            display: block;
+            float: left;
+            margin-top: 0px;
+        }
+        .filter {
+            margin: 3%;
+        }
+        .filter .product-sizes label{
+            color: black;
+            padding: 5px;
+            border: solid 1.5px black;
+            border-radius: 5px;
+            margin-right: 10px;
+            font-weight: 500;
+            }  
     }

@@ -2,6 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
     padding: 0;
     margin: 0;
+    overflow-x: 0;
 }
 header {
     background: white;
@@ -109,6 +110,7 @@ header {
   writing-mode: vertical-rl;
   text-orientation: mixed; 
   border-radius: 7px 0px 0px 7px;
+  overflow-x: 0;
 }
 .help-sidetag:hover {
   background-color: black;
@@ -483,6 +485,36 @@ header {
       font-weight: 700;
       font-size: 1.2rem;
     }
+    .breadcrumb-menu {
+      left: 5%;
+    }
+    ul.breadcrumb {
+      padding: 10px 16px;
+      list-style: none;
+    }
+    ul.breadcrumb li {
+      display: inline;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: black;
+      text-transform: uppercase;
+    }
+    ul.breadcrumb li+li:before {
+      padding: 5px;
+      color: black;
+      content: "/\00a0";
+    }
+    ul.breadcrumb a {
+      font-weight: 400;
+      font-size: 0.8rem;
+      color: black;
+      text-transform: uppercase;
+    }
+    ul.breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
+
 @media only screen and (max-width: 980px) {
 
   .herotop {
@@ -560,5 +592,8 @@ header {
   #stitem-2, #stitem-3 {
       display: none;
   }
-}
+  .help-sidetag {
+    display: none;  
+  }
+
 }
