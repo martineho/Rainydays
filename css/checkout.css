@@ -122,15 +122,6 @@ h3 {
         border-radius: 5px;
         padding: 8px;
     }
-    .address-input {
-        width: 300px;
-    }
-    .street-address {
-        width: 350px;
-    }
-    .postal-code {
-        width: 100px;
-    }
     .checkout-options select {
         padding: 8px;
     }
@@ -165,6 +156,16 @@ h3 {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
+    .dropdown {
+        padding-top: 5px;
+    }
+    .product-image img {
+        scale: 0.7;
+    }
+    .price {
+        padding-top: 15px;
+        float: left;
+    }
     .summary {
         margin: 0% 5%;
     }
@@ -175,4 +176,20 @@ h3 {
         margin: 2%;
         box-shadow: none;
     }     
+    .shipping-cost {
+        font-weight: 400;
+        font-size: 0.7rem;
+    }
+    .shipping-cost span {
+        font-weight: 400;
+        font-size: 0.7rem;
+    }
+    .checkout-total p{
+        font-size: 0.8rem;
+    }
+    .checkout-total span {
+        float: right;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
 } 
