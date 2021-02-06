@@ -1,3 +1,42 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
 .information-banner {
     background-color: #3F3F3F;
 }
+.product-information {
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: auto;
+}
+
+
+.product-sizes {
+    margin: 20px 0;
+  }
+  
+  .product-sizes input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+  } 
+  .product-sizes #s,#m,#l,#xl {
+      color: black;
+      padding: 8px;
+      border: solid 1.5px black;
+      border-radius: 5px;
+      margin-right: 10px;
+      font-weight: 500;
+  }
+
+  .shipping-info {
+      margin: 30px 0px;
+  }
+    .shipping-info p {
+        color: black;
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
