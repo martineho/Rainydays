@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/checkout-success.css">
 </head>
 
     <body>
@@ -43,7 +44,7 @@
         <div class="information-banner">
          
             <p></p>
-            <p>You are now at checkout</p>
+            <p>Your payment was successful!</p>
             <p></p>
 
         </div>
@@ -53,40 +54,43 @@
             <section class="checkout-success">
                 <div class="container">
 
-                    <div class="success-icon">V</div>
+                    <div class="success-icon"><img src="../Rainydays/images/success-icon.png"></div>
 
                     <h1>Thank you for your phurchase!</h1>
 
-                        <p class="order-number">Order no: #00000000</p>
-                        <p>We will send you a confirmation email shortly! 
-                            Please check your spam folder. </p>
+                        <p class="order-no">Order no: #00000000</p>
 
-                        <a class="cta-button black">Continue Shopping</a>
+                        <p>We will send you a confirmation email shortly! </p>
+                           <p>Please check your spam folder.</p>
+
+                          <div class="shop-more"><a class="cta-button-black">Continue Shopping</a></div>
                     </div>
 
             </section>
 
 
-            <section class="order-summary right">
+            <section class="order-summary">
+                <div class="summary container">
                     <h3>Order Summary</h3>
-                    <span class="descriptive-text">1 Men's HIKE pro</span>
-                    <span class="descriptive-text">NOK 1.300,00</span>
-                    <span class="descriptive-text">Shipping</span>
-                    <span class="descriptive-text bold">FREE</span>
-                    <span class="descriptive-text bold">Total incl. Shipping</span>
-                    <span class="descriptive-text bold">NOK 1.300.00</span>
+                    <article class="description">
+                        <p>1 Men's Hike pro<span>NOK 1.300.00</span></p>
+                        <p>Shipping <span>FREE</span> </p>
+                        <p class="total">Total incl. Shipping<span>NOK 1.300.00</span> </p>
+                    </article>
 
-                    <div class="underline"></div>
-                    <p class="descriptive-text bold">Home Delivery</p>
-                    <p class="descriptive-text">Estimated Delivery: 1-4 days</p>
+                    <article class="delivery-method">
+                        <p class="bold">Home delivery</p>
+                        <p>Estimated delivery: 1- 4 days</p>
+                    </article>
 
-                    <div class="underline"></div>
-                    <p class="descriptive-text">Name</p>
-                    <p class="descriptive-text">Street Address, 0000 City</p>
-                    <p class="descriptive-text">+47 00 00 00 00</p>
+                    <div class="address"> 
+                        <div>Name</div>
+                        <div>Street Address, 0000 City</div>
+                        <div>+47 00 00 00 00</div>
+                        <div class="tracking"><a class="hyperlink">Track your order</a></div> 
+                    </div>
 
-                    <a class="hyperlink">Track your order</a>
-
+                </div>
             </section>
 
         </main>

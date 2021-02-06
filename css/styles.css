@@ -423,7 +423,7 @@ header {
       text-align: center;
       text-decoration: none;
       font-weight: 600;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       color: black;
       margin: 2px;
       -webkit-box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.14);
@@ -444,7 +444,7 @@ header {
       text-align: center;
       text-decoration: none;
       font-weight: 600;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       color: white;
       background-color: black;
       margin: 2px;
@@ -463,12 +463,28 @@ header {
       text-align: center;
       text-decoration: none;
       font-weight: 600;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       color: white;
       border: solid 2px #1548F7;
     }
     .cta-button-blue:hover {
       border: solid 2px #1548F7;
+    }
+    .cta-button-black {
+      display: block;
+      background-color: black;
+      width: 200px;
+      padding: 10px 0px;
+      border-radius: 7px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.8rem;
+      color: white;
+      border: solid 2px black;
+    }
+    .cta-button-black:hover {
+      border: solid 2px black;
     }
     .hyperlink {
       color: black;

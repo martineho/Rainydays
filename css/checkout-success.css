@@ -1,0 +1,74 @@
+main {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: auto;
+}
+.information-banner {
+    background-color: #CCEB21;
+}
+.information-banner p {
+    color: black;
+}
+
+.checkout-success {
+    margin: 5% 5%;
+}
+.success-icon img{
+    padding: 20px;
+}
+.checkout-success p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+.order-no {
+    margin: 5% 0;
+}
+.shop-more {
+    margin: 5% 0;
+}
+
+
+.order-summary {
+    padding: 5%
+}
+.summary article {
+    padding: 5% 0%;
+    border-bottom: solid 0.5px #3F3F3F;
+}
+    .summary {
+        margin: 5%;
+        padding: 5% 10%;
+        box-shadow: 3px 3px 15px rgb(211, 211, 211);
+        background-color: white;
+        border-radius: 10px;
+    }
+    .order-summary p {
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+    .order-summary span {
+        float: right
+    }
+    p.total {
+        font-weight: 600;
+    }
+    
+    .delivery-method p {
+        font-weight: 300;
+        font-size: 0.7rem;
+    }
+    .delivery-method .bold {
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+    .tracking {
+        margin: 5% 0;
+    }
+    .address {
+        margin: 5% 0;
+    }
+    .address div{
+        font-size: 0.7rem;
+        padding: 4px 0px;
+        font-weight: 300;
+    }
