@@ -16,6 +16,9 @@ h3 {
     background-color: white;
     border-radius: 10px;
 }
+    img.product-image {
+        width: 120px;
+    }
     .product-summary {
         display: grid;
         grid-template-columns: 2fr 4fr;
@@ -49,11 +52,12 @@ h3 {
     .price {
         margin-top: -20px;
     }
-
+    .price-description {
+        border-bottom: solid 0.5px #3F3F3F;
+    }
     .price-description p,span{
         font-size: 0.8rem;
     }
-
     .price-description span{
         float: right;
     }
