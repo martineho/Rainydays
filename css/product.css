@@ -12,13 +12,19 @@ body {
     grid-template-rows: auto;
     height: auto;
 }
+.product-information h6 {
+    padding-bottom: 15px;
+}
 .product-image {
     text-align: center;
+    padding-top: 10%;
 }
-
-.info-right h1 {
-    margin: 0;
+.info-right {
+    padding: 15% 15% 15% 0%;
 }
+    .info-right h1 {
+        margin: 0;
+    }
     .product-price {
         margin: 10px 0px;
     }
@@ -105,26 +111,70 @@ body {
     }
 
 .product-details {
-    background-color: #d4d4d4;
+    background-color: #dfdfdf;
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: auto;
+    padding: 5%;
+}
+.product-details h5{
+   color: black;
+   font-weight: 400;
+   font-size: 0.8rem;
+   text-transform: uppercase;
+   text-decoration: none;
+   margin-bottom: 20px;
+
 }
 .feautures ul {
-    list-style: circle;
+    margin-left: 0px;
+    padding: 0px;
+   
 }
 .feautures li {
     color: black;
+    list-style-type: inherit;
+    list-style: inside;
+    margin: 5px;
 }
-
+.gore-tex-mark {
+    font-weight: 600;
+}
 
 
 
 
 
 .product-performance {
-    background-color: #eeeeee;
+    background-color: #f1f1f1;
+    padding: 10% 18%;
 }
+.product-performance article {
+    
+    padding-bottom: 10%;
+}
+    .score-label {
+        font-size: 0.7rem;
+        margin: 10px 0px;
+        font-weight: 600;
+    }
+    .score-label span {
+        float: right;
+    }
+    .score-graph {
+        background-color: #3F3F3F;
+        padding: 5px;
+        border-radius: 20px;
+    }
+    .seven {
+        width: 70%;
+    }
+    .five {
+        width: 50%;
+    }
+
+
+
 .filter {
     color: #3F3F3F;
     margin: 5%;
