@@ -32,42 +32,42 @@ body {
     width: 260px;
     color: #3F3F3F;
 }
-.heading {
-    display: inline;
-}
-.filter img {
-    width: 22px;
-    margin-right: 20px;
-}
-.filter article {
-    border-bottom: solid 0.5px #3F3F3F;
-    margin: 20px 40px;
-    padding: 10px 0px;
-}
-.filter h3 {
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: #3F3F3F;
-}
-.filter h5 {
-    font-weight: 600;
-    text-decoration: none;
-    color: #3F3F3F;
-}
-.filter form {
-    padding: 25px 0;
-}
-.filter input {
-    float: right;
-}
-.filter .checkmark {
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.8rem;
-    font-weight: 500;
-    padding: 7px 0;
-    color: #3F3F3F;
-}
+    .heading {
+        display: inline;
+    }
+    .filter img {
+        width: 22px;
+        margin-right: 20px;
+    }
+    .filter article {
+        border-bottom: solid 0.5px #3F3F3F;
+        margin: 20px 40px;
+        padding: 10px 0px;
+    }
+    .filter h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #3F3F3F;
+    }
+    .filter h5 {
+        font-weight: 600;
+        text-decoration: none;
+        color: #3F3F3F;
+    }
+    .filter form {
+        padding: 25px 0;
+    }
+    .filter input {
+        float: right;
+    }
+    .filter .checkmark {
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 7px 0;
+        color: #3F3F3F;
+    }
 .item {
     max-width: 300px;
 }

@@ -7,12 +7,11 @@ body {
     background-color: #3F3F3F;
 }
 .product-information {
-    padding-top: 2%;
     display: grid;
     grid-template-columns: 4fr 2fr;
     grid-template-rows: auto;
+    height: auto;
 }
-
 .product-image {
     text-align: center;
 }
@@ -91,6 +90,142 @@ body {
     grid-template-rows: auto;
     height: 80vh;
 }
-.img-1 {
-    background-image: url(../images/reykjavik_parrallax.jpg);
+    .img-1 {
+        background-image: url(../images/kal-visuals-1.jpg);
+        background-size: cover;
+    }
+    .img-2 {
+        background-image: url(../images/conor-sheridan.jpg);
+        background-size: cover;
+        background-position-x: center;
+    }
+    .img-3 {
+        background-image: url(../images/kal-visuals-2_WEB.jpg);
+        background-size: cover;
+    }
+
+.product-details {
+    background-color: #d4d4d4;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
 }
+.feautures ul {
+    list-style: circle;
+}
+.feautures li {
+    color: black;
+}
+
+
+
+
+
+
+.product-performance {
+    background-color: #eeeeee;
+}
+.filter {
+    color: #3F3F3F;
+    margin: 5%;
+}
+    .heading {
+        display: inline;
+    }
+    .filter img {
+        width: 22px;
+        margin-right: 20px;
+    }
+    .filter article {
+        border-bottom: solid 0.5px #3F3F3F;
+        margin: 20px 40px;
+        padding: 10px 0px;
+    }
+    .filter h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #3F3F3F;
+    }
+    .filter h5 {
+        font-weight: 600;
+        text-decoration: none;
+        color: #3F3F3F;
+    }
+    .filter form {
+        padding: 25px 0;
+    }
+    .filter input {
+        float: right;
+    }
+    .filter .checkmark {
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 7px 0;
+        color: #3F3F3F;
+    }
+.reviews {
+    margin-bottom: 5%;
+}
+    .reviews-headline {
+        display: flex;
+        justify-content: space-between;
+        margin: auto auto;
+        padding: 5% 5% 1% 5%;
+    }
+    .reviews-headline h3 {
+        display: inline;
+        margin-top: 15px;
+    }
+    .rating {
+        display: inline-flex;
+        margin: 15px 0;
+        scale: 0.6;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .rating img {
+        margin-right: 20px;
+    }
+    .rating span {
+        font-weight: 400;
+    }
+    .reviews-headline div {
+        display: inline;
+        float: right;
+    }
+    .reviews-table {
+        margin: 0px 5%;
+        padding: 0% 5%;
+        box-shadow: 3px 3px 15px rgb(211, 211, 211);
+        background-color: white;
+        border-radius: 10px;
+    }
+    .table-cell {
+        padding: 5% 0%;
+        border-bottom: solid 0.5px #3F3F3F;
+    }
+    .table-cell-last {
+        text-align: center;
+        padding: 5% 0%;
+    }
+    .date {
+        font-size: 0.7rem;
+        margin: 10px 0px;
+    }
+    .customer-name {
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 10px 0px;
+    }
+    .customer-rating {
+        width: 70px;
+    }
+    .table-cell p{
+        width: 50%;
+    }
+    .helpful-link {
+        float: right;
+        margin-top: -30px;
+    }
