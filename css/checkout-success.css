@@ -31,7 +31,7 @@ main {
 .order-summary {
     padding: 5%
 }
-.summary article {
+div.description, div.delivery-method  {
     padding: 5% 0%;
     border-bottom: solid 0.5px #3F3F3F;
 }
